@@ -35,13 +35,20 @@ export const TitleBottom = styled.h1`
   line-height: 96px;
 `;
 
+export const BoxIcon = styled.div`
+  display: flex;
+`;
+
 export const HireMe = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 24px;
   background-color: #00adb5;
   margin-right: 1.5rem;
   color: #eeee;
-  width: 5rem;
-  height: 2rem;
+  width: 9rem;
+  height: 3rem;
   border: none;
   color: #eee;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -52,13 +59,23 @@ export const HireMe = styled.button`
   cursor: pointer;
 `;
 
+export const IconImg = styled.img`
+  width: 1.5rem;
+  background-color: transparent;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+`;
+
 export const Curriculo = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 24px;
   background-color: #393e46bf;
   margin-right: 1.5rem;
   color: #eeee;
-  width: 5rem;
-  height: 2rem;
+  width: 9rem;
+  height: 3rem;
   border: none;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   font-family: Poppins;
@@ -66,6 +83,10 @@ export const Curriculo = styled.button`
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+`;
+
+export const TitleIcon = styled.h3`
+  background-color: transparent;
 `;
 
 export const ImgHome = styled.img`

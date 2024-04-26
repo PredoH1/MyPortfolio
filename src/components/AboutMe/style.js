@@ -4,8 +4,9 @@ import backgroundImg from "../../assets/imgAbout.svg";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
   align-items: center;
-  border-bottom: 0.5px solid (238, 238, 238, 0.1);
+  border-bottom: 0.5px solid rgba(238, 238, 238, 0.1);
 `;
 
 export const SubContainer = styled.section`
@@ -48,6 +49,7 @@ export const Paragraph = styled.section`
 
 export const arrowAbout = styled.div`
   display: flex;
+  margin-bottom: 1rem;
   justify-content: center;
 `;
 
